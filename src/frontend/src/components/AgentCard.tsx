@@ -1,34 +1,47 @@
-import { GlassPanel } from './GlassPanel';
-import { StatusBadge } from './StatusBadge';
+import React from 'react';
+import Image from 'next/image';
 
 interface AgentCardProps {
-    handle: string;
+    id: string;
     name: string;
     role: string;
-    status: 'active' | 'working' | 'blocked' | 'standby';
-    avatarColor: string;
+    handle: string;
+    status: string;
+    isActive?: boolean;
 }
 
-export function AgentCard({ handle, name, role, status, avatarColor }: AgentCardProps) {
+export const AgentCard: React.FC<AgentCardProps> = ({ name, role, handle, status, isActive }) => {
     return (
-        <GlassPanel hoverable className="p-4 flex flex-col gap-3 min-w-[200px]">
-            <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                    <div className={`w-10 h-10 rounded-full ${avatarColor} flex items-center justify-center font-bold text-lg shadow-inner`}>
+        <div className={`relative flex flex-col items-center justify-center py-5 px-6 rounded-xl border transition-all duration-300 w-full min-w-[140px] shadow-[0_4px_20px_rgba(0,0,0,0.3)]
+      ${isActive
+                ? 'bg-[#121E31] border-[#00D2FF] shadow-[0_0_15px_rgba(0,210,255,0.15)]'
+                : 'bg-[#121E31]/80 border-[#1E2D4A] hover:border-[#2A3E5D]'
+            }`}
+        >
+            {/* Top right dot indicator */}
+            <div className={`absolute top-3 right-3 w-1.5 h-1.5 rounded-full ${isActive ? 'bg-[#00D2FF] shadow-[0_0_5px_#00D2FF]' : 'bg-[#00D2FF]/50'}`} />
+
+            {/* Avatar */}
+            <div className={`relative w-14 h-14 rounded-full mb-3 p-[2px] ${isActive ? 'bg-gradient-to-b from-[#00D2FF] to-transparent' : 'bg-[#1E2D4A]'}`}>
+                <div className="w-full h-full rounded-full bg-[#0B1221] flex items-center justify-center overflow-hidden">
+                    {/* Using a placeholder text for avatar but in a real app this would be an Image */}
+                    <span className="text-xl font-bold text-slate-300 tracking-wider">
                         {name.charAt(0)}
-                    </div>
-                    <div>
-                        <div className="font-semibold text-white tracking-wide">{handle}</div>
-                        <div className="text-sm text-slate-400">{name}</div>
-                    </div>
+                    </span>
                 </div>
-                <StatusBadge status={status} />
             </div>
 
-            <div className="mt-2 pt-3 border-t border-white/5">
-                <div className="text-xs text-slate-500 uppercase font-medium tracking-wider mb-1">Current Focus</div>
-                <div className="text-sm text-cyan-50 font-medium">{role}</div>
+            {/* Text Info */}
+            <h3 className="text-sm font-bold text-white mb-0.5">{name}</h3>
+            <p className="text-[11px] text-[#64748B] mb-3">{handle}</p>
+
+            {/* Status */}
+            <div className="flex items-center gap-1.5 text-[11px] mt-auto">
+                <span className="text-[#64748B]">Status:</span>
+                <span className={`${status.toLowerCase().includes('track') ? 'text-[#00D2FF] font-medium' : status.toLowerCase().includes('qa') ? 'text-[#34D399] font-medium' : 'text-[#64748B]'}`}>
+                    {status}
+                </span>
             </div>
-        </GlassPanel>
+        </div>
     );
-}
+};

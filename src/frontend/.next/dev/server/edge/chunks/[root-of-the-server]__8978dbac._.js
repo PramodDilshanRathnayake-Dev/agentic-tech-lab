@@ -14,19 +14,14 @@ module.exports = mod;
 "[project]/src/middleware.ts [middleware-edge] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// import { withAuth } from "next-auth/middleware"
 __turbopack_context__.s([
     "config",
     ()=>config,
     "default",
-    ()=>__TURBOPACK__default__export__
+    ()=>middleware
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$middleware$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/middleware.js [middleware-edge] (ecmascript)");
-;
-const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$middleware$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["withAuth"])({
-    pages: {
-        signIn: "/login"
-    }
-});
+function middleware() {}
 const config = {
     matcher: [
         '/((?!api|_next/static|_next/image|favicon.ico|login).*)'
