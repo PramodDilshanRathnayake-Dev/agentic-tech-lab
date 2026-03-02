@@ -17,12 +17,12 @@
 * **Tasks**: Create visual interfaces and design tokens.
 * **Acceptance Criteria**: High-fidelity mockups generated in `uiux/mockups/` and `design_system.md` outputted via Stitch.
 
-### 4. Development Phase (Status: IN PROGRESS)
+### 4. Development Phase (Status: COMPLETED)
 * **Assignee**: @dev
 * **Tasks**: Execute code implementation based on SAD and Design System.
-* **Acceptance Criteria**: Feature implemented in `src/`, committed, and PR opened to staging.
+* **Acceptance Criteria**: Feature implemented in `src/`, committed, and PR opened to staging. (PR #1)
 
-### 5. QA Phase (Status: TO DO)
+### 5. QA Phase (Status: COMPLETED)
 * **Assignee**: @qa
 * **Tasks**: Final gatekeeping, static analysis, and visual diffing.
-* **Acceptance Criteria**: `test-summary.md` generated. PR is either Approved or Rejected with `DEFECT.md`.
+* **Acceptance Criteria**: `test-summary.md` generated. PR is either Approved or Rejected with `DEFECT.md`. (Status: PR Merged & Approved)
