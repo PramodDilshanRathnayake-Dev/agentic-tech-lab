@@ -2,14 +2,17 @@
 
 import React from 'react';
 
-export const OrchestrationPanel = () => {
+export const OrchestrationPanel: React.FC = () => {
     return (
-        <div className="w-full bg-[#121E31]/80 rounded-xl border border-[#1E2D4A] p-5 shadow-[0_8px_30px_rgba(0,0,0,0.5)] flex flex-col h-full hover:border-[#2A3E5D] transition-colors">
-            <h3 className="text-[#64748B] text-[12px] font-bold uppercase tracking-[0.15em] mb-4">AI AGENT ORCHESTRA</h3>
+        <div className="w-full bg-[#121E31]/80 rounded-xl border border-[#1E2D4A] p-6 shadow-[0_8px_30px_rgba(0,0,0,0.5)] flex flex-col h-full hover:border-[#2A3E5D] transition-colors">
+            <div className="flex justify-between items-center mb-6">
+                <h3 className="text-[#64748B] text-[12px] font-bold uppercase tracking-[0.15em]">AI AGENT ORCHESTRA</h3>
+                <span className="text-[#64748B] tracking-widest leading-none">...</span>
+            </div>
 
-            <div className="flex gap-4 flex-1">
+            <div className="flex flex-col xl:flex-row gap-6 items-stretch flex-1">
                 {/* Agent Network Area */}
-                <div className="flex-[2] bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 relative overflow-hidden flex flex-col">
+                <div className="flex-[2] bg-[#0A101F]/40 border border-[#1E293B] rounded-xl p-4 overflow-hidden flex flex-col h-full">
                     <div className="flex justify-between items-center mb-2 z-10 relative">
                         <h4 className="text-white text-sm font-semibold">Agent Network</h4>
                         <span className="text-[#64748B] text-[10px] border border-[#1E2D4A] px-2 py-1 rounded bg-[#121E31]">Expanded Relationship Status</span>
@@ -78,7 +81,7 @@ export const OrchestrationPanel = () => {
                 </div>
 
                 {/* Orchestration Health */}
-                <div className="flex-1 bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex flex-col justify-between">
+                <div className="flex-1 bg-[#0A101F]/40 border border-[#1E293B] rounded-xl p-4 flex flex-col justify-between h-full">
                     <h4 className="text-white text-sm font-semibold mb-6 text-center">Orchestration Health</h4>
 
                     <div className="flex justify-center mb-6 relative">

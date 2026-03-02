@@ -570,21 +570,38 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const OrchestrationPanel = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full bg-[#121E31]/80 rounded-xl border border-[#1E2D4A] p-5 shadow-[0_8px_30px_rgba(0,0,0,0.5)] flex flex-col h-full hover:border-[#2A3E5D] transition-colors",
+        className: "w-full bg-[#121E31]/80 rounded-xl border border-[#1E2D4A] p-6 shadow-[0_8px_30px_rgba(0,0,0,0.5)] flex flex-col h-full hover:border-[#2A3E5D] transition-colors",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-[#64748B] text-[12px] font-bold uppercase tracking-[0.15em] mb-4",
-                children: "AI AGENT ORCHESTRA"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex justify-between items-center mb-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-[#64748B] text-[12px] font-bold uppercase tracking-[0.15em]",
+                        children: "AI AGENT ORCHESTRA"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/OrchestrationPanel.tsx",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "text-[#64748B] tracking-widest leading-none",
+                        children: "..."
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/OrchestrationPanel.tsx",
+                        lineNumber: 10,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
                 lineNumber: 8,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex gap-4 flex-1",
+                className: "flex flex-col xl:flex-row gap-6 items-stretch flex-1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-[2] bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 relative overflow-hidden flex flex-col",
+                        className: "flex-[2] bg-[#0A101F]/40 border border-[#1E293B] rounded-xl p-4 overflow-hidden flex flex-col h-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex justify-between items-center mb-2 z-10 relative",
@@ -594,7 +611,7 @@ const OrchestrationPanel = ()=>{
                                         children: "Agent Network"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 14,
+                                        lineNumber: 17,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -602,13 +619,13 @@ const OrchestrationPanel = ()=>{
                                         children: "Expanded Relationship Status"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 18,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                lineNumber: 13,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,7 +646,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 22,
+                                                lineNumber: 25,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -641,7 +658,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Real-time"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 23,
+                                                lineNumber: 26,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -653,7 +670,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "data"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 24,
+                                                lineNumber: 27,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -665,7 +682,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 27,
+                                                lineNumber: 30,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -677,7 +694,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Data"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 28,
+                                                lineNumber: 31,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -689,7 +706,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 31,
+                                                lineNumber: 34,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -701,7 +718,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Real-time data"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 32,
+                                                lineNumber: 35,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -713,7 +730,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 35,
+                                                lineNumber: 38,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -725,7 +742,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Link"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 39,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -737,7 +754,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 42,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -749,7 +766,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Plan"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 40,
+                                                lineNumber: 43,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -761,7 +778,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 46,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -773,7 +790,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Real-time"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 44,
+                                                lineNumber: 47,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -785,7 +802,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 50,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -797,7 +814,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Data"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 48,
+                                                lineNumber: 51,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -809,7 +826,7 @@ const OrchestrationPanel = ()=>{
                                                 markerEnd: "url(#arrow)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 54,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -821,7 +838,7 @@ const OrchestrationPanel = ()=>{
                                                 children: "Real-time"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 55,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -838,23 +855,23 @@ const OrchestrationPanel = ()=>{
                                                         opacity: "0.8"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 56,
+                                                        lineNumber: 59,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 58,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 54,
+                                                lineNumber: 57,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 20,
+                                        lineNumber: 23,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,22 +880,6 @@ const OrchestrationPanel = ()=>{
                                             initial: "D",
                                             name: "David K.",
                                             role: "architect"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                            lineNumber: 63,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 62,
-                                        columnNumber: 25
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute left-[40%] top-[10%]",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgentNode, {
-                                            initial: "M",
-                                            name: "Maria G.",
-                                            role: "uiux"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
                                             lineNumber: 66,
@@ -890,11 +891,11 @@ const OrchestrationPanel = ()=>{
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute left-[72%] top-[10%]",
+                                        className: "absolute left-[40%] top-[10%]",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgentNode, {
-                                            initial: "A",
-                                            name: "Alex R.",
-                                            role: "dev"
+                                            initial: "M",
+                                            name: "Maria G.",
+                                            role: "uiux"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
                                             lineNumber: 69,
@@ -906,10 +907,10 @@ const OrchestrationPanel = ()=>{
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute left-[35%] top-[70%]",
+                                        className: "absolute left-[72%] top-[10%]",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgentNode, {
-                                            initial: "L",
-                                            name: "Liam M.",
+                                            initial: "A",
+                                            name: "Alex R.",
                                             role: "dev"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
@@ -922,11 +923,11 @@ const OrchestrationPanel = ()=>{
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute left-[75%] top-[70%]",
+                                        className: "absolute left-[35%] top-[70%]",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgentNode, {
                                             initial: "L",
                                             name: "Liam M.",
-                                            role: "qa"
+                                            role: "dev"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
                                             lineNumber: 75,
@@ -936,28 +937,44 @@ const OrchestrationPanel = ()=>{
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
                                         lineNumber: 74,
                                         columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute left-[75%] top-[70%]",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgentNode, {
+                                            initial: "L",
+                                            name: "Liam M.",
+                                            role: "qa"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/OrchestrationPanel.tsx",
+                                            lineNumber: 78,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/OrchestrationPanel.tsx",
+                                        lineNumber: 77,
+                                        columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                lineNumber: 18,
+                                lineNumber: 21,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                        lineNumber: 12,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1 bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex flex-col justify-between",
+                        className: "flex-1 bg-[#0A101F]/40 border border-[#1E293B] rounded-xl p-4 flex flex-col justify-between h-full",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                 className: "text-white text-sm font-semibold mb-6 text-center",
                                 children: "Orchestration Health"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                lineNumber: 82,
+                                lineNumber: 85,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -969,7 +986,7 @@ const OrchestrationPanel = ()=>{
                                             className: "absolute inset-[-8px] rounded-full border-[8px] border-[#00D2FF] border-l-transparent border-b-transparent transform rotate-45"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 90,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -980,7 +997,7 @@ const OrchestrationPanel = ()=>{
                                                     children: "88%"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 89,
+                                                    lineNumber: 92,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -988,24 +1005,24 @@ const OrchestrationPanel = ()=>{
                                                     children: "Efficiency"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 93,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 91,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 89,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                lineNumber: 84,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1021,20 +1038,20 @@ const OrchestrationPanel = ()=>{
                                                         children: "Agent Alex R:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 101,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "65% utilization"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 102,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 100,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1043,18 +1060,18 @@ const OrchestrationPanel = ()=>{
                                                     className: "h-full w-[65%] bg-[#00D2FF]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 104,
                                                     columnNumber: 92
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 104,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 99,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1067,20 +1084,20 @@ const OrchestrationPanel = ()=>{
                                                         children: "Agent Maria G:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 105,
+                                                        lineNumber: 108,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "9% utilization"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 109,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 107,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1089,18 +1106,18 @@ const OrchestrationPanel = ()=>{
                                                     className: "h-full w-[9%] bg-[#00D2FF]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 111,
                                                     columnNumber: 92
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 111,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 106,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1113,20 +1130,20 @@ const OrchestrationPanel = ()=>{
                                                         children: "Agent Alexx R:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 115,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "65% utilization"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                        lineNumber: 113,
+                                                        lineNumber: 116,
                                                         columnNumber: 33
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 114,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1135,36 +1152,36 @@ const OrchestrationPanel = ()=>{
                                                     className: "h-full w-[65%] bg-[#00D2FF]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 118,
                                                     columnNumber: 92
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 118,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 113,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                                lineNumber: 95,
+                                lineNumber: 98,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                        lineNumber: 81,
+                        lineNumber: 84,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1184,12 +1201,12 @@ const AgentNode = ({ initial, name, role })=>/*#__PURE__*/ (0, __TURBOPACK__impo
                     children: initial
                 }, void 0, false, {
                     fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                    lineNumber: 127,
+                    lineNumber: 130,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                lineNumber: 126,
+                lineNumber: 129,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1197,7 +1214,7 @@ const AgentNode = ({ initial, name, role })=>/*#__PURE__*/ (0, __TURBOPACK__impo
                 children: name
             }, void 0, false, {
                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                lineNumber: 129,
+                lineNumber: 132,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1205,13 +1222,13 @@ const AgentNode = ({ initial, name, role })=>/*#__PURE__*/ (0, __TURBOPACK__impo
                 children: role
             }, void 0, false, {
                 fileName: "[project]/src/components/OrchestrationPanel.tsx",
-                lineNumber: 130,
+                lineNumber: 133,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/OrchestrationPanel.tsx",
-        lineNumber: 125,
+        lineNumber: 128,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 }),
@@ -1432,7 +1449,7 @@ const BudgetTracking = ()=>{
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex-1 relative border-l border-b border-[#1E2D4A] ml-6 mb-4 min-h-[140px]",
+                className: "flex-1 relative border-l border-b border-[#1E2D4A] ml-6 mb-10 min-h-[140px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -left-6 top-0 bottom-0 flex flex-col justify-between text-[10px] text-[#64748B] pb-2 text-right pr-2",
@@ -1479,7 +1496,7 @@ const BudgetTracking = ()=>{
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -bottom-5 left-0 right-0 flex justify-between text-[10px] text-[#64748B] px-2",
+                        className: "absolute bottom-[-22px] left-0 right-0 flex justify-between text-[10px] text-[#64748B] px-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "Jul"
@@ -1688,9 +1705,9 @@ const HITLApprovals = ()=>{
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col gap-3",
+                className: "flex flex-col gap-3 overflow-y-auto pr-2 custom-scrollbar",
                 children: approvals.map((approval)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex items-center justify-between shadow-sm",
+                        className: "bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex items-center justify-between shadow-sm shrink-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -2222,9 +2239,9 @@ function CEODashboardV2() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                        className: "flex-1 p-6 w-full max-w-[1800px] mx-auto",
+                        className: "flex-1 p-6 w-full max-w-[1800px] mx-auto overflow-y-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 xl:grid-cols-12 gap-6 h-full pb-10",
+                            className: "grid grid-cols-1 xl:grid-cols-12 gap-6 pb-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "xl:col-span-8 flex flex-col gap-6",
@@ -2290,7 +2307,7 @@ function CEODashboardV2() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-[300px]",
+                                            className: "min-h-[420px]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OrchestrationPanel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["OrchestrationPanel"], {}, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 96,
@@ -2311,7 +2328,7 @@ function CEODashboardV2() {
                                     className: "xl:col-span-4 flex flex-col gap-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-[280px]",
+                                            className: "min-h-[350px]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BudgetTracking$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BudgetTracking"], {}, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 103,
@@ -2323,7 +2340,7 @@ function CEODashboardV2() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-[220px]",
+                                            className: "min-h-[420px]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HITLApprovals$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HITLApprovals"], {}, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 106,

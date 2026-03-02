@@ -69,8 +69,8 @@ export default function CEODashboardV2() {
         </header>
 
         {/* Dashboard Grid Content */}
-        <main className="flex-1 p-6 w-full max-w-[1800px] mx-auto">
-          <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 h-full pb-10">
+        <main className="flex-1 p-6 w-full max-w-[1800px] mx-auto overflow-y-auto">
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 pb-10">
             {/* Left Column (Main Charts/Stats) */}
             <div className="xl:col-span-8 flex flex-col gap-6">
               {/* Active Agents Row */}
@@ -92,17 +92,17 @@ export default function CEODashboardV2() {
               </div>
 
               {/* Node Graph Panel */}
-              <div className="h-[300px]">
+              <div className="min-h-[420px]">
                 <OrchestrationPanel />
               </div>
             </div>
 
             {/* Right Column (Side Panels) */}
             <div className="xl:col-span-4 flex flex-col gap-6">
-              <div className="h-[280px]">
+              <div className="min-h-[350px]">
                 <BudgetTracking />
               </div>
-              <div className="h-[220px]">
+              <div className="min-h-[420px]">
                 <HITLApprovals />
               </div>
               <div className="flex-1 min-h-[200px]">

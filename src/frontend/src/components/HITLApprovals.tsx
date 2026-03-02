@@ -16,9 +16,9 @@ export const HITLApprovals = () => {
                 <span className="text-[#64748B] tracking-widest leading-none">...</span>
             </div>
 
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 overflow-y-auto pr-2 custom-scrollbar">
                 {approvals.map(approval => (
-                    <div key={approval.id} className="bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex items-center justify-between shadow-sm">
+                    <div key={approval.id} className="bg-[#0A111F] border border-[#1E2D4A] rounded-xl p-4 flex items-center justify-between shadow-sm shrink-0">
                         <div>
                             <h4 className="text-white font-semibold text-sm leading-tight">{approval.title}</h4>
                             <p className="text-[#FB923C] text-[10px] mt-1">{approval.pending}</p>

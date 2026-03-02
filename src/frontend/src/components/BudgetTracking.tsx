@@ -44,7 +44,7 @@ export const BudgetTracking = () => {
             </div>
 
             {/* Token Usage Line Chart Visualization */}
-            <div className="flex-1 relative border-l border-b border-[#1E2D4A] ml-6 mb-4 min-h-[140px]">
+            <div className="flex-1 relative border-l border-b border-[#1E2D4A] ml-6 mb-10 min-h-[140px]">
                 {/* Y-axis Labels */}
                 <div className="absolute -left-6 top-0 bottom-0 flex flex-col justify-between text-[10px] text-[#64748B] pb-2 text-right pr-2">
                     <span>8M</span>
@@ -55,7 +55,7 @@ export const BudgetTracking = () => {
                 </div>
 
                 {/* X-axis Labels */}
-                <div className="absolute -bottom-5 left-0 right-0 flex justify-between text-[10px] text-[#64748B] px-2">
+                <div className="absolute bottom-[-22px] left-0 right-0 flex justify-between text-[10px] text-[#64748B] px-2">
                     <span>Jul</span>
                     <span>Aug</span>
                     <span>Sep</span>
