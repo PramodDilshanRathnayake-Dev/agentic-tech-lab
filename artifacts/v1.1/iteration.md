@@ -17,7 +17,7 @@
 * **Tasks**: Design the Google SSO Login page.
 * **Acceptance Criteria**: High-fidelity mockups generated in `artifacts/v1.1/uiux/mockups/` and `design_system.md` updated if necessary.
 
-### 4. Development Phase (Status: IN PROGRESS)
+### 4. Development Phase (Status: COMPLETED)
 * **Assignee**: @dev
 * **Tasks**: 
   1. Move existing Next.js app to `src/frontend`.
@@ -25,7 +25,7 @@
   3. Create `src/backend` stub.
 * **Acceptance Criteria**: Code functionally matches the structure, SSO secures the dashboard, committed, and PR opened.
 
-### 5. QA Phase (Status: TO DO)
+### 5. QA Phase (Status: COMPLETED)
 * **Assignee**: @qa
 * **Tasks**: Final gatekeeping on auth flow and directory structure.
 * **Acceptance Criteria**: `test-summary.md` generated for v1.1.

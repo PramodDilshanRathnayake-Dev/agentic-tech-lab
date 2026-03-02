@@ -1,14 +1,29 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import { AgentCard } from '@/components/AgentCard';
 import { GlassPanel } from '@/components/GlassPanel';
 import { StatusBadge } from '@/components/StatusBadge';
+import { ProjectHealth } from '@/components/ProjectHealth';
 
 export default function Home() {
+  const [healthData, setHealthData] = useState<any>(null);
+
+  useEffect(() => {
+    // In a real monorepo with Docker, we'd use an env var for the API URL
+    // For now, we'll fetch from localhost:8080 during manual development
+    fetch('http://localhost:8080/api/stats/project-health')
+      .then(res => res.json())
+      .then(data => setHealthData(data))
+      .catch(err => console.error('Failed to fetch health data:', err));
+  }, []);
+
   return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto flex flex-col gap-8">
+    <main className="min-h-screen p-8 max-w-7xl mx-auto flex flex-col gap-8 text-white">
       {/* Header */}
       <header className="flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl flex items-center justify-center text-2xl font-black shadow-[var(--shadow-glow)]">
+          <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl flex items-center justify-center text-2xl font-black shadow-[0_0_20px_rgba(6,182,212,0.4)]">
             A
           </div>
           <div>
@@ -29,6 +44,15 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      {/* Project Health Section */}
+      {healthData && (
+        <ProjectHealth
+          percentage={healthData.completionPercentage}
+          sprint={healthData.sprint}
+          timeline={healthData.timeline}
+        />
+      )}
 
       {/* Agents Section */}
       <section>
