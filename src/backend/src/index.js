@@ -163,4 +163,98 @@ IMPORTANT: Format the output so the PRD comes first, then a delimiter '---SAD_ST
     }
 });
 
+app.post('/api/grooming/summarize', async (req, res) => {
+    try {
+        const { chatHistory, prd, sad } = req.body;
+        let summary = "The CEO wants to amend the project. Let's review the current requirements and architecture.";
+
+        if (geminiProvider) {
+            const historyStr = chatHistory.map(m => `${m.sender.toUpperCase()}: ${m.text}`).join('\n');
+            const prompt = `Context Session Persistence - Summarization Task:
+The following is a grooming session history, including the resulting PRD and SAD.
+The CEO wants to amend these requirements.
+Summarize the current state (key decisions, core features, and architectural constraints) into a concise 'Context Briefing'.
+This summary will be used to continue the conversation in the grooming chat.
+End the summary by asking the CEO what specific amendments they would like to make.
+
+CHAT HISTORY:
+${historyStr}
+
+CURRENT PRD:
+${prd}
+
+CURRENT SAD:
+${sad}`;
+
+            let generatedSummary = "";
+            for await (const event of pmRunner.runEphemeral({
+                userId: 'ceo',
+                newMessage: { role: 'user', parts: [{ text: prompt }] }
+            })) {
+                if (event.author === pmAgent.name && event.content && event.content.parts) {
+                    generatedSummary += event.content.parts.map(p => p.text || '').join("");
+                }
+            }
+            if (generatedSummary) {
+                summary = generatedSummary;
+            }
+        }
+        res.json({ summary });
+    } catch (e) {
+        console.error("ADK Error in Summarize:", e);
+        res.status(500).json({ error: "PM Agent failed to summarize context." });
+    }
+});
+
+// v3.1 — Token-efficient document revision endpoint
+app.post('/api/grooming/revise', async (req, res) => {
+    try {
+        const { documentType, comments, chatHistory, currentDocument } = req.body;
+        const isPrd = documentType === 'prd';
+        const docLabel = isPrd ? 'PRD (Product Requirement Document)' : 'SAD (Software Architecture Design)';
+
+        // Build change directives from CEO comments
+        const changeDirectives = comments.map((c, i) => `${i + 1}. ${c}`).join('\n');
+
+        let revisedDocument = currentDocument || `Mock revised ${docLabel}`;
+
+        if (geminiProvider) {
+            // Step 1: Compress context (reuse summarize logic)
+            const historyStr = (chatHistory || []).map(m => `${m.sender?.toUpperCase()}: ${m.text}`).join('\n');
+
+            // Step 2: Build token-efficient prompt — NO full document sent
+            const prompt = `You are revising a ${docLabel} based on CEO feedback.
+
+CONTEXT SUMMARY (from grooming session):
+${historyStr.substring(0, 1500)}
+
+The CEO has reviewed the ${docLabel} and requests the following specific changes:
+${changeDirectives}
+
+Please generate a COMPLETE revised ${docLabel} in well-structured Markdown incorporating ALL the requested changes above.
+Output ONLY the revised document in Markdown format, nothing else.`;
+
+            const runner = isPrd ? pmRunner : new InMemoryRunner({ appName: 'grooming', agent: architectAgent });
+            const targetAgent = isPrd ? pmAgent : architectAgent;
+
+            let resultText = "";
+            for await (const event of runner.runEphemeral({
+                userId: 'ceo',
+                newMessage: { role: 'user', parts: [{ text: prompt }] }
+            })) {
+                if (event.author === targetAgent.name && event.content && event.content.parts) {
+                    resultText += event.content.parts.map(p => p.text || '').join("");
+                }
+            }
+            if (resultText) {
+                revisedDocument = resultText;
+            }
+        }
+        res.json({ revisedDocument });
+    } catch (e) {
+        console.error("ADK Error in Revise:", e);
+        res.status(500).json({ error: "Revision agent encountered an error." });
+    }
+});
+
 app.listen(8080, () => console.log('Backend listening on 8080'));
